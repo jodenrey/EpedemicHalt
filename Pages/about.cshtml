@@ -1,0 +1,434 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "EPIDEMIC HALT";
+}
+<head>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://demo.voidcoders.com/htmldemo/fitgear/main-files/assets/css/animate.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/about.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+				
+			<h1 id="fh5co-logo"><a asp-page="/Index">
+			
+	<div class="animate__animated animate__zoomIn  animate__infinite   	infinite animate__slower	2s"><span>E P I D E M I C</span></div>
+				<div class="animate__animated animate__zoomInDown  animate__infinite	infinite animate__slower	3s">H A L T</div></a></h1>
+				<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+					<li ><i class="fas fa-home"></i><a asp-page="/Index">Home</a></li>
+														
+					<li><i class="fas fa-map"></i><a asp-page="/worldmap" >COVID Map</a></li>
+					<li><i class="fas fa-book"></i><a asp-page="/information">Covid 19 Info</a></li>	
+					<li class="fh5co-active"><i class="fas fa-user"></i><a asp-page="/about">About</a></li>
+					<li><i class="fas fa-envelope"></i><a asp-page="/contact">Contact</a></li>
+			</nav>
+
+
+		</aside>
+		<div id="fh5co-main">
+		<section id="team" class="team-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="site-heading text-center">
+                        <h2>Our</h2> <span><h1 class="animate__animated animate__backInRight">TEAM</h1></span>
+                        <h4>Meet our awesome and expert team members</h4>
+                    </div>
+                </div>
+            </div>
+            	<div class="fh5co-narrow-content animate-box" data-animate-effect="fadeInLeft">
+                <div class="row team-items">
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/castueras.JPG" alt="Thumb">
+                                <div class="overlay">
+                                    <h4></h4>
+                                    <p>
+                                       Always be responsible to have a better future.
+                                    </p>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="twitter">
+                                                <a href="https://twitter.com/mxthxww"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li class="facebook">
+                                                <a href=""><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                         
+                                     
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href=""><i class="icon fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Mathew Castueras</h4>
+                                <span>Programmer</span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/joseph.png" alt="Thumb">
+                                <div class="overlay">
+                                    <h4></h4>
+                                    <p>
+                                        Be brave and learn how to deal with the struggles in life.
+                                    </p>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="twitter">
+                                                <a href="https://twitter.com/jodeennn"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/JoDenRey/"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://www.instagram.com/jodenrey1/"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href=""><i class="icon fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Joseph Dennis Reyes</h4>
+                                <span>Programmer</span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/jericho.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <h4></h4>
+                                    <p>
+                                       Those who cannot give up anything, can't change anything 
+                                    </p>
+                                    <div class="social">
+                                        <ul>
+                                           
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/mharckjericho.martinez"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://www.instagram.com/mjzmartinez/"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                          
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href=""><i class="icon fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Mharck Martinez</h4>
+                                <span>Programmer</span>
+                            </div>
+                        </div>
+                    </div>
+			<div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/mak.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </p>
+                                    <div class="social">
+                                        <ul>
+                                           
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/mcleoyd/"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                         
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="icon fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Mc Leoyd Macalino</h4>
+                                <span>Programmer</span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/Dominic.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <h4></h4>
+                                    <p>
+                                      “Live for each second without hesitation.”
+                                    <div class="social">
+                                        <ul>
+                                            
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/linn.manoban"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                      
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href=""><i class="icon fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Linn Dominic Ortiguerra</h4>
+                                <span>Researcher</span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/jonathan.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <h4></h4>
+                                    <p>
+                                       "Age is just a number, maturity is a choice"
+                                    </p>
+                                    <div class="social">
+                                        <ul>
+                                          
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/blurry.face.official/"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                       
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href=""><i class="icon fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Jonathan Fajilagot Jr.</h4>
+                                <span>Researcher</span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/rosales.jpg" alt="rosales">
+                                <div class="overlay">
+                                    <h4></h4>
+                                    <p>
+                                       A positive and responsible individual who can use everything at his disposal to make the work done, clean, and creative in total.
+                                    </p>
+                                    <div class="social">
+                                        <ul>
+                                           
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/lightning.bolt.509"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                          
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href=""><i class="icon fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Jason Karl Rosales</h4>
+                                <span>Presentor</span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/dae.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <h4></h4>
+                                    <p>
+                                        Success is not final, failure is not fatal: it is the courage to continue that counts.
+                                    </p>
+                                    <div class="social">
+                                        <ul>
+                                        
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/dayenggg/"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                          
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href=""><i class="icon fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Daeniel Valenzuela</h4>
+                                <span>Presentor</span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/tanon.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <h4></h4>
+                                    <p>
+                                       "Dream as if you’ll live forever, live as if you’ll die today."
+                                    </p>
+                                    <div class="social">
+                                        <ul>
+                                      
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/marie.chie.9"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href=""><i class="icon fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Marife Tañon</h4>
+                                <span>Proposal writer</span>
+                            </div>
+                        </div>
+                    </div>
+               <!--     <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/joanna.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </p>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="twitter">
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="vimeo">
+                                                <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="icon fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Joanna Mae Marquez</h4>
+                                <span>Proposal Writer</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/jake.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <h4></h4>
+                                    <p>
+                               "It's better to fail trying than fail without doing anything"
+                                    </p>
+                                    <div class="social">
+                                        <ul>
+                                      
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/kiankian173/"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                        
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href=""><i class="icon fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Kian Jake Cornelio</h4>
+                                <span>Leader</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>		
+    </div>
+	
+
+
+		
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>

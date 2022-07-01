@@ -1,0 +1,186 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "EPIDEMIC HALT";
+}
+<head>
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	
+	  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+				
+			<h1 id="fh5co-logo"><a asp-page="/Index">
+			
+	<div class="animate__animated animate__zoomIn  animate__infinite   	infinite animate__slower	2s"><span>E P I D E M I C</span></div>
+				<div class="animate__animated animate__zoomInDown  animate__infinite	infinite animate__slower	3s">H A L T</div></a></h1>
+				<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+					<li ><i class="fas fa-home"></i><a asp-page="/Index">Home</a></li>
+														
+					<li><i class="fas fa-map"></i><a asp-page="/worldmap" >COVID Map</a></li>
+					<li class="fh5co-active"><i class="fas fa-book"></i><a asp-page="/information">Covid 19 Info</a></li>	
+					<li ><i class="fas fa-user"></i><a asp-page="/about">About</a></li>
+					<li><i class="fas fa-envelope"></i><a asp-page="/contact">Contact</a></li>
+			</nav>
+
+
+		</aside>
+
+		<div id="fh5co-main">
+			<div class="fh5co-narrow-content">
+
+				
+				   <div class="cards">
+    			  <h2 class="header">
+				THIS SECTION WILL HELP YOU TO LEARN MORE ABOUT THE FACTS OF COVID-19. IT CAN SAVE LIFE BY THE FACTS GIVEN BELOW.</h2>
+			<div class="row row-bottom-padded-md">
+					<div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">							
+						<div class="blog-entry">
+						
+							<a asp-page="/portfolio" class="blog-img"><img src="images/question_mark.gif" class="img-responsive" alt="QUESTION MARK"></a>
+							<div class="desc">
+								
+								<h3><a asp-page="portfolio">What is Covid-19?</a></h3>
+								<span><small>by WHO</small> / <small>INFORMATION </small> <small> <i class="icon-comment"></i></small></span>
+								
+								<p>It's hard for others to know what is Covid-19 because of lack of misconceptions
+                       			  We want to help you to know how covid-19 starts and what are history.
+									    											          
+								</p>
+								<a asp-page="/portfolio">READ MORE <i class="icon-arrow-right3"></i></a>
+							</div>
+						</div>
+						</div>
+					
+					<div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+						<div class="blog-entry">
+							<a asp-page="portfolio2" class="blog-img"><img src="images/mf.gif" class="img-responsive" alt="FACTVSMYHTHS"></a>
+							<div class="desc">
+								<h3><a asp-page="portfolio2">Facts vs <br> Myths </a></h3>
+								<span><small>by WHO </small> / <small> INFORMATION </small> <small> <i class="icon-comment"></i></small></span>
+								<p>Lots of rumours and misconceptions about the virus
+                        		spread and it can be dangerous if you aren't aware
+                        		which are to believe and which are not to believe.</p>
+								<a asp-page="/portfolio2" >READ MORE  <i class="icon-arrow-right3"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+						<div class="blog-entry">
+							<a asp-page="/typesSymptoms" class="blog-img"><img src="images/sick.gif" class="img-responsive" alt="SICK"></a>
+							<div class="desc">
+								<h3><a asp-page="/typesSymptoms">Symptoms<br> of <br> Covid-19</a></h3>
+								<span><small>by WHO </small> / <small> INFORMATION</small> <small> <i class="icon-comment"></i></small></span>
+								<p> It is important to know what the symptoms of Covid-19.
+                    	 		By knowing such will help each individual to
+                        		know better and stop ...</p>
+								<a asp-page="/typesSymptoms">READ MORE  <i class="icon-arrow-right3"></i></a>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+						<div class="blog-entry">
+							<a asp-page="/typesOfPersonal" class="blog-img"><img src="images/face_mask.gif" class="img-responsive" alt="FACEMASK"></a>
+							<div class="desc">
+								<h3><a asp-page="/typesOfPersonal">PERSONAL PROTECTIVE GEAR</a></h3>
+								<span><small>by WHO </small> / <small> INFORMATION </small> <small> <i class="icon-comment"></i> </small></span>
+								<p>  SARS-CoV-2 infection are so dangerous. People should know
+									what are the things they need to fight the virus from spreading ...
+									
+								</p>
+								<a asp-page="/typesOfPersonal" >READ MORE <i class="icon-arrow-right3"></i></a>
+							</div>
+						</div>
+						</div>
+					</div>			
+				<!----	<div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+						<div class="blog-entry">
+							<a asp-page="porftfolio5" class="blog-img"><img src="images/vaccine.gif" class="img-responsive" alt="VACCINE"></a>
+							<div class="desc">
+								<h3><a asp-page="porftfolio5">Covid 19<br> Vaccine</a></h3>
+								<span><small>by WHO </small> / <small> INFORMATION </small> <small> <i class="icon-comment"></i></small></span>
+								<p>
+										As WHO and partners work together on the
+										responsE distributing vital medical supplies to those in need
+									  they are racing to find ...</p>
+								<a asp-page="/porftfolio5" >Read More <i class="icon-arrow-right3"></i></a>
+							</div>
+						</div>
+					</div> --->
+					<div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+						<div class="blog-entry">
+							<a asp-page="/portfolio4" class="blog-img"><img src="images/stop.gif" class="img-responsive" alt="STOP"></a>
+							<div class="desc">
+								<h3><a asp-page="/porftfolio4">How to avoid Covid-19</a></h3>
+								<span><small>by WHO </small> / <small> INFORMATION </small> <small> <i class="icon-comment"></i> </small></span>
+								<p>Do's and Don'ts
+
+                        		Many of us are not aware of what are the things to
+                        		practice and to avoid during this pandemic. It is important
+								to know...</p>
+								<a asp-page="/portfolio4">READ MORE  <i class="icon-arrow-right3"></i></a>
+							</div>
+						</div>
+					</div>	
+					<div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+						<div class="blog-entry">
+							<a asp-page="/portfolio5" class="blog-img"><img src="images/boost_immune.gif" class="img-responsive" alt="BOOST IMMUNE"></a>
+							<div class="desc">
+								<h3><a asp-page="/portfolio5">HOW TO BOOST IMMUNE SYSTEM</a></h3>
+								<span><small>by DOH </small> / <small> INFORMATION </small>  <small> <i class="icon-comment"></i> </small></span>
+								<p>Growing concerns about COVID-19 has caused a surge in online
+									 searches on how to properly protect yourself against the virus. 
+									
+									</p>
+								<a asp-page="/portfolio5" class="read">READ MORE  <i class="icon-arrow-right3"></i></a>
+							</div>
+						</div>
+					</div>
+	
+				</div>
+			</div>
+		
+		
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>

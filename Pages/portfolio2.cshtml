@@ -1,0 +1,172 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "EPIDEMIC HALT";
+}
+<head>
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+				
+			<h1 id="fh5co-logo"><a asp-page="/Index">
+			
+	<div class="animate__animated animate__zoomIn  animate__infinite   	infinite animate__slower	2s"><span>E P I D E M I C</span></div>
+				<div class="animate__animated animate__zoomInDown  animate__infinite	infinite animate__slower	3s">H A L T</div></a></h1>
+			<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+					<li ><i class="fas fa-home"></i><a asp-page="/Index">Home</a></li>
+														
+					<li><i class="fas fa-map"></i><a asp-page="/worldmap" >COVID Map</a></li>
+					<li class="fh5co-active"><i class="fas fa-book"></i><a asp-page="/information">Covid 19 Info</a></li>	
+					<li ><i class="fas fa-user"></i><a asp-page="/about">About</a></li>
+					<li><i class="fas fa-envelope"></i><a asp-page="/contact">Contact</a></li>
+			</nav>
+
+		</aside>
+
+		<div id="fh5co-main">
+			<div class="fh5co-narrow-content">
+				<div class="cards">
+					  <h2 class="header">
+						Lots of rumours and misconceptions about the virus
+                        		spread and it can be dangerous if you aren't aware
+                        		which are to believe and which are not to believe.
+						POINT YOUR CURSOR TO SHOW INFORMATION ABOUT COVID.</h2>
+						</div>
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
+						<a href="#" class="work image-popup" style="background-image: url(images/mosquito.gif);">
+							<div class="desc">
+								<h3>CAN COVID 19 BE TRANSMITTED THROUGH MOSQUIOTOES?</h3>
+								<span>There is no evidence that
+                                    the novel coronavirus can be
+                                    transmitted through mosquitoes.
+                                    The virus can be spread through
+                                    droplets from coughing, sneezing
+                                    or a patient’s saliva.
+                   			 </span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
+						<a href="#" class="work image-popup" style="background-image: url(images/climate.gif);">
+							<div class="desc">
+								<h3>IT IS TRUE THAT COVID 19 IS TRANSMITTED IN COLD
+                               CLIMATE AND NOT IN HOT AND HUMID CLIMATE? </h3>
+								<span>  Coronavirus 2019 can be transmitted in any kind of climate.
+                                Wherever you are, no matter what kind of climate, you have to practice
+                                personal hygiene, i.e. wash your hands often, cover your mouth
+                                when you sneeze or cough, and wear masks.</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
+						<a href="#" class="work image-popup" style="background-image: url(images/drink.gif);">
+							<div class="desc">
+								<h3>CAN DRINKING ALCOHOL HELP PREVENT COVID-19? </h3>
+								<span>Drinking alcohol, such as beer, liquor, wine doesn’t help prevent coronavirus.
+                                You should wash your hands often, wear masks, and avoid being close to
+                                those with a fever and cough.</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
+						<a href="#" class="work image-popup" style="background-image: url(images/garlic.gif);">
+							<div class="desc">
+								<h3>CAN EATING GARLIC PREVENT COVID 19?</h3>
+								<span> Though garlic has some anti-microbial properties, there is
+                                no evidence that it can prevent Covid-19. </span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
+						<a href="#" class="work image-popup" style="background-image: url(images/pepper.gif);">
+							<div class="desc">
+								<h3>ADDING PEPPER TO YOUR SOUP OR OTHER MEALS DOES NOT PREVENT COVID-19.</h3>
+								<span>Hot peppers in your food, though very tasty, cannot prevent
+                                     or cure COVID-19. The best way to protect yourself against the 
+                                     new coronavirus is to keep at least 1 metre away from others and 
+                                     to wash your hands frequently and thoroughly.</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
+						<a href="#" class="work image-popup" style="background-image: url(images/mobile.gif);">
+							<div class="desc">
+								<h3>5G MOBILE NETWORK DO NOT SPREAD COVID-19</h3>
+								<span>Viruses cannot travel on radio waves/mobile networks. COVID-19 is 
+                                    spreading in many countries that do not have 5G mobile networks.</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
+						<a href="#" class="work image-popup" style="background-image: url(images/sun.gif);">
+							<div class="desc">
+								<h3>EXPOSING YOURSELF TO THE SUN OR HIGHER THAN  25°C
+                                  DOES NOT PROTECT YOU FROM COVID-19</h3>
+								<span>You can catch COVID-19, no matter how sunny or hot the weather is. 
+                                    Countries with hot weather have reported cases of COVID-19. 
+                                    To protect yourself, make sure you clean your hands frequently and thoroughly 
+                                    and avoid touching your eyes, mouth, and nose.  </span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
+						<a href="#" class="work image-popup" style="background-image: url(images/shower.gif);">
+							<div class="desc">
+								<h3>TALING A HOT BATH DOES NOT PREVENT COVID-19</h3>
+								<span>Taking a hot bath will not prevent you from catching COVID-19. 
+                                    Your normal body temperature remains around 36.5°C to 37°C, regardless 
+                                    of the temperature of your bath or shower.</span>
+							</div>
+						</a>
+					</div>
+		
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
